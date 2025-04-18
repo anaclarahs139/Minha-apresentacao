@@ -1,0 +1,134 @@
+/*ESTLOS GERAIS*/
+body{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+span{
+    color: gray;
+}
+
+.titulo-seccao{
+    text-decoration: underline cornflowerblue;
+    text-shadow: 1px 1px 0px #6495ED;
+}
+
+/*HEADER*/
+
+header{
+    background-color: rgb(12, 79, 204);
+    border-bottom:3px solid rgb(25, 67, 146) ;
+}
+
+.h-div{
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil{
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid goldenrod;
+    margin: 1rem 1rem;
+    border-radius: 100%;
+}
+
+.sobre{
+    margin-bottom: 4rem ;
+}
+
+/*GOSTOS*/
+
+.g-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0rem;
+}
+
+ul{
+    margin-right: 5rem ;
+}
+
+/*ATIVIDADES*/
+.a-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.atividade{
+    width: 27rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.atividade-img{
+    width: 27rem;
+    height: 20rem;
+    border: 2px solid rgb(255, 196, 0);
+}
+
+h4{
+    text-decoration: underline cornflowerblue;
+    margin: 0.5rem 0rem;
+}
+
+footer{
+    background-color: cornflowerblue;
+    padding: 2rem;
+}
+
+.texto-f{
+    text-align: center;
+    margin: 0px;
+    font-weight: 900;
+}
+
+
+@media (min-width: 320px) and (max-width: 660px){
+    /*ESTILOS GERAIS*/
+    body{
+        font-size: 0.6em;
+    }
+
+    main{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /*HEADER*/
+
+    .titulo{
+        font-size: 1.5em;
+    }
+
+    .foto-perfil{
+        width: 4em;
+        height: 4em;
+        border-radius: 100px;
+    }
+
+    /*GOSTOS*/
+    ol{
+        padding: 0px;
+    }
+    /*ATIVIDADES*/
+
+    .atividade{
+        width: 30em;
+    }
+
+    .atividade-img{
+        width: 29em;
+        height: 20em;
+    }
+}
